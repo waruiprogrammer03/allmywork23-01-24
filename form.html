@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="FORM.css">
+    <title>Form</title>
+</head>
+<body>
+
+<form action="">
+    <legend><U>Project Management</U></legend>
+    <br><br>
+
+
+    <label for="pname">project name:</label>
+    <input type="text" id="pname" style="margin-left: 50px " placeholder="type prpject name" required="required">
+<br><br>
+
+<div class="d1">
+    <label for="assignment">Assignment to:</label>
+    <select name="" id="assignment"style="margin-left: 50px ">
+        <option value="choose" disabled="disabled">---assignment---</option>
+        <option value="choose">Robert</option>
+        <option value="choose">Williams</option>
+        <option value="choose">Daisy</option>
+    </select>
+    </div><br><br>
+
+
+    <label for="sdate">Start Date:</label>
+    <input type="date" id="sdate"style="margin-left: 80px " required="required">
+    <br><br>
+
+    <label for="edate">End Date:</label>
+    <input type="date" id="edate" style="margin-left: 90px "required="required">
+    <br><br>
+
+
+<label>priority</label>
+    <input type="radio" id="high"style="margin-left: 100px ">
+    <label for="high">high</label>
+    <input type="radio" id="average">
+    <label for="average">average</label>
+    <input type="radio" id="low">
+    <label for="low">low</label>
+    <br><br>
+
+
+<div class="d1">
+    <label for="person">DESCRIPTION</label><br>
+    <textarea name="" id="person"style="margin-left: 50px " cols="30" rows="5"></textarea>
+</div>
+    <br><br>
+
+    <button type="submit" style="background-color: white">submit</button>
+
+
+</form>
+
+</body>
+</html>

@@ -1,0 +1,23 @@
+legend{
+    text-align: center;
+    font-weight: bold;
+}
+form{
+    border-radius: 40px;
+    margin: auto;
+    background-color: aqua;
+    width: 50%;
+    margin-bottom: 10px;
+    height: 600px;
+    margin-top: 80px;
+    padding: 30px;
+}
+.d1{
+    display: flex;
+}
+button  {
+    width: 70%;
+    height: 40px;
+    border-radius: 5px;
+
+}

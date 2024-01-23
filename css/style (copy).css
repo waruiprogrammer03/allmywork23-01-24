@@ -1,0 +1,13 @@
+#main{
+    display: grid;
+}
+
+.division2{
+    display: flex;
+}
+
+img{
+    width: 200px;
+    height: 90px;
+    padding-top: 20px;
+}

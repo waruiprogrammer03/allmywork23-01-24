@@ -1,0 +1,33 @@
+.d1{
+    display: flex;
+    padding-left: 40px;
+    width: 100%;
+}
+    .p1{
+         margin-left: 40px;
+        margin-top: 40px;
+    }
+
+
+.d2{
+    display: flex;
+    padding-left: 40px;
+    width: 300%;
+    height: 120px;
+
+
+}
+.p2{
+     margin-left: 40px;
+    margin-top: 40px;
+}
+.d3{
+    display: flex;
+    padding-left: 40px;
+    height: 160px;
+
+}
+.p3{
+     margin-left: 40px;
+    margin-top: 40px;
+}

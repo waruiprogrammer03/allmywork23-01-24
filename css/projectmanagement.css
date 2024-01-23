@@ -1,0 +1,46 @@
+form{
+    background-color: #4bd5d5;
+    width: 75%;
+    margin: auto;
+    height: 500px;
+
+}
+legend{
+    background-color: white;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+    font-size: 30px;
+}
+body{
+    background-color: white;
+}
+input[type=text],input[type=date]{
+    width: 80%;
+    height: 40px;
+    border-radius:5px;
+    margin-top:10px ;
+    padding-left: 10px;
+    position: relative;
+}
+.c1{
+    background-color: #40ff00;
+    margin-left: 170px;
+}
+.c2{
+    background-color: darkblue;
+    margin-left: 170px;
+}
+select{
+width: 82%;
+height: 40px;
+    margin-left: 2px;
+    display: inline-block;
+}
+label{
+    width: 120px;
+    display: inline-block;
+}
+.er{
+    display: flex;
+}
